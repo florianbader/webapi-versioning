@@ -1,0 +1,11 @@
+# Get API versions
+OPTIONS http://localhost:5000/api
+
+###
+# Get weatherforecast
+GET http://localhost:5000/api/weatherforecast
+
+###
+# Get weatherforecast v1.0
+GET http://localhost:5000/api/weatherforecast
+Accept: application/json; v=1.0
